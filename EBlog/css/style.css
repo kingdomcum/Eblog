@@ -1,0 +1,71 @@
+/* css/style.css/    这是拓方设计blog的css */
+
+* {    font-family: "微软雅黑";    font-size: 14px;    color: #666666; margin: 0;    padding: 0;}
+
+body, div, {    margin: 0;    padding: 0;}
+body {    background: #fff;}
+
+a:link {color: #666666;    text-decoration: none;}
+a:hover {color: #0066ff;    text-decoration: none;}
+a:active {color: #666666;    text-decoration: none;}
+a:visited {color: #666666;    text-decoration: none;}
+
+.body {color: #333333;   background-color: #e6e6e6;}
+
+.head {background-color: #ffffff; border-width:0 0 1px 0 ; border-style:solid; border-color: #b9b9b9;}
+
+.top {margin: 0 auto;    width: 1080px;    vertical-align: middle; }
+.top {line-height: 80px;} .top > * {    display: inline-block;    vertical-align: middle;}
+.top .logo {width: 240px;    height: 60px;    float: left;    margin-top: 10px;}
+.top input.search {  -webkit-border-radius: 1em;    -moz-border-radius: 1em;    -ms-border-radius: 1em;    -o-border-radius: 1em;     border-radius: 3em;    text-align: left;    border: 1px solid #ccc;    color: #999;    padding: 0.25em 0.8em 0.25em 2em;    -webkit-box-shadow: 0 0 0.5em #e6e6e6, 0 0 0 1px #d4d4d4;    -moz-box-shadow: 0 0 0.5em #e6e6e6, 0 0 0 1px #d4d4d4;    box-shadow: 0 0 0.5em #e6e6e6, 0 0 0 1px #d4d4d4;}
+.top input.search:focus, .top input.search:active {background: url("../image/search2.png") no-repeat 10px center ; outline: none;    -webkit-box-shadow: 0 0 0.5em #69eefa, 0 0 0 1px #fcfaff;    -moz-box-shadow: 0 0 0.5em #69eefa, 0 0 0 1px #fcfaff;    box-shadow: 0 0 0.5em #69eefa, 0 0 0 1px #fcfaff;}
+.top input.search {background: url("../image/search.png") no-repeat 10px center ; border: none;    font-size: 14;    padding-left: 2.5em;    padding-right: 1em;    height: 24px;    width: 240px;}
+.top .nav {margin: 0px auto;    float: right;}
+.top .nav li {width: 70px;    height: 20px;    float: left;    list-style-type: none;    font-size: 18px;    list-style: none; font-size: 16px;  /*  margin-top: -10px;*/ }
+
+/*
+.content {margin: 0 auto;    width: 1080px;    vertical-align: middle; }
+.content .columnhead {width: 780px;    height: 36px; margin: 20px 0; padding: 8px;  border: 1px #000000;    color: #333333;}
+.content .List {width: 780px;    margin: 0 auto;    text-align: center;    height: 48px; list-style-type: none;}
+*/
+
+.container { width: 1080px;    overflow: hidden; margin: 20px auto;}
+.floatLeft {float: left; width:780px; }
+.floatLeft .col{ height: 32px; line-height: 32px; padding-left: 30px; font-size: 16px; color: #3a3a3a; background: #f5f5f5; border: 1px solid #b9b9b9; }
+.floatLeft .title{background: #ffffff; border-width:0 1px 0 1px ; border-style : solid; border-color: #b9b9b9 }
+.floatLeft .title li{ border-bottom: 1px dotted #999999; padding:17px 30px;}
+.floatLeft .title time{float: right; color:#b9b9b9;}
+.floatLeft .page{text-align:right; vertical-align:middle; height: 48px; line-height: 48px; padding: 0 30px; background: #f5f5f5; border-width:0 1px 1px 1px; border-style : solid; border-color: #b9b9b9}
+
+.floatRight {float: right; width: 280px;}
+
+.floatRight .person{width:218px; height:280px; background-color: #ffffff; border-color:#b9b9b9; border-style:solid; border-width:1px; padding:20px 30px; margin-bottom: 20px;}
+.floatRight .img{background-repeat:no-repeat; display:block; margin:20px auto;}
+.floatRight .p{border-bottom: 1px dotted #999;  padding: 12px; }
+.floatRight .p .img2{float: right; vertical-align: middle;}
+
+.floatRight .column{width:278px; height:180px; background-color: #ffffff; border-color:#b9b9b9; border-style:solid; border-width:1px; margin-bottom: 20px;}
+.floatRight .col-top{height: 32px; line-height: 32px; padding-left: 15px; font-size: 16px; color: #3a3a3a; background:#f5f5f5; border-style:solid; border-width:0 0 1px 0 ; border-color:#b9b9b9; }
+.floatRight .col-top .img3{float:right; padding: 8px 15px 8px 8px;}
+.floatRight .col-title{background: #ffffff; border:0 solid #b9b9b9;/* border-width:0; border-style : solid; border-color: #b9b9b9; */ }
+.floatRight .col-title li{padding:15px 0px 0px 10px; line-height:130%; list-style-type: none; /*list-style:square inside url("../image/bullet_white.png");*/}
+
+.floatRight .hot{width:278px; height:380px; background-color: #ffffff; border-color:#b9b9b9; border-style:solid; border-width:1px; margin-bottom: 20px;}
+.floatRight .hot-top{height: 32px; line-height: 32px; padding-left: 15px; font-size: 16px; color: #3a3a3a; background:#f5f5f5; border-style:solid; border-width:0 0 1px 0 ; border-color:#b9b9b9; }
+.floatRight .hot-top .img4{float:right; padding: 8px 15px 8px 8px;}
+.floatRight .hot-title{background: #ffffff; border:0 solid #b9b9b9;/* border-width:0; border-style : solid; border-color: #b9b9b9; */list-style-type: none; }
+.floatRight .hot-title li{padding:15px 0px 0px 20px; line-height:130%;}
+.floatRight .hot-title .li .time{float: right; color:#b9b9b9;}
+.floatRight .hot-title .span{width:30px; text-align: center; float: left; color:#b9b9b9; margin-right: 20px;}
+
+
+
+.footer {margin: 0 auto;    width: 1080px;    vertical-align: middle;}
+.footerbg {background-image: url("../image/footerbg.jpg"); }
+.footer > * {display: inline-block;    margin-top: 20px;    color: #fcfaff;  }
+.footer a:link {color: #d5d5d5;    text-decoration: none;  }
+.footer a:hover {color: #fcfaff;    text-decoration: none;  }
+.footer .address {background-image: url("../image/two-dimension-small.jpg");    background-repeat: no-repeat;    padding-left: 80px;    height: 90px;    margin-left: 50px; }
+.footer .business {float: right;    margin: 20px;  }
+.footer .business li {color: #ffffff;    list-style: none;}
+
